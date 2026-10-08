@@ -3,8 +3,7 @@ body {
     background: linear-gradient(135deg, #667eea, #764ba2);
     margin: 0;
     text-align: center;
-    background-image:url('images/bg.jpg'):
-    backgroung-size=cover;
+
 }
 
 /* Header */
