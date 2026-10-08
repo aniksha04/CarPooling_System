@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    margin: 0;
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    background: linear-gradient(90deg, #ff6a00, #ee0979);
+    color: white;
+    padding: 20px;
+    margin: 0;
+    border-radius: 0 0 20px 20px;
+}
+
+/* Forms */
+form {
+    background: white;
+    padding: 20px;
+    margin: 30px auto;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+}
+
+input, select {
+    width: 85%;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    background: linear-gradient(90deg, #36d1dc, #5b86e5);
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+/* Links */
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background: linear-gradient(90deg, #ff758c, #ff7eb3);
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/* Cards */
+.card {
+    background: white;
+    padding: 15px;
+    margin: 15px auto;
+    width: 330px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+}
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.available { background: green; }
+.full { background: red; }
