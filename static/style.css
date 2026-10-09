@@ -1,0 +1,94 @@
+/* Background */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #333;
+}
+
+/* Center container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Glass Card Effect */
+.card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    color: white;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #ff7a18;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff3c00;
+    transform: scale(1.05);
+}
+
+/* Navbar */
+.navbar {
+    background: rgba(0,0,0,0.7);
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Dashboard */
+.dashboard {
+    padding: 30px;
+}
+
+/* Cards layout */
+.cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Dashboard cards */
+.card-box {
+    background: white;
+    padding: 20px;
+    flex: 1;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card-box:hover {
+    transform: translateY(-10px);
+}
+
+/* Status colors */
+.available { color: green; }
+.full { color: red; }
+.completed { color: blue; }
